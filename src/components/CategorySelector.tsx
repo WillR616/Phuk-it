@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Beach, Restaurant, Music, Club, Museum, MapPin } from 'lucide-react';
+import { UmbrellaBeach, Utensils, Music, GlassWater, Building, Spa, Landmark } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Category } from '@/data/activities';
 
@@ -15,43 +15,43 @@ const categories: CategoryItem[] = [
   { 
     id: 'beach', 
     label: 'Beaches', 
-    icon: <Beach size={22} />, 
+    icon: <UmbrellaBeach size={22} />, 
     color: 'bg-teal-light text-teal-dark'
   },
   { 
     id: 'restaurant', 
     label: 'Food', 
-    icon: <Restaurant size={22} />, 
+    icon: <Utensils size={22} />, 
     color: 'bg-coral-light text-coral-dark'
   },
   { 
     id: 'club', 
     label: 'Clubs', 
-    icon: <Club size={22} />, 
+    icon: <Music size={22} />, 
     color: 'bg-purple-100 text-purple-800'
   },
   { 
     id: 'bar', 
     label: 'Bars', 
-    icon: <Music size={22} />, 
+    icon: <GlassWater size={22} />, 
     color: 'bg-amber-100 text-amber-800'
   },
   { 
     id: 'museum', 
     label: 'Museums', 
-    icon: <Museum size={22} />, 
+    icon: <Building size={22} />, 
     color: 'bg-blue-100 text-blue-800'
   },
   { 
     id: 'massage', 
     label: 'Spa', 
-    icon: <Club size={22} />, 
+    icon: <Spa size={22} />, 
     color: 'bg-green-100 text-green-800'
   },
   { 
     id: 'local', 
     label: 'Local', 
-    icon: <MapPin size={22} />, 
+    icon: <Landmark size={22} />, 
     color: 'bg-orange-100 text-orange-800'
   },
 ];
