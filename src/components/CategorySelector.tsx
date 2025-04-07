@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { Umbrella, Utensils, Music, Glass, Building, Sparkles, Landmark } from 'lucide-react';
+import { Umbrella, Utensils, Music, Wine, Building, Sparkles, Landmark } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Category } from '@/data/activities';
 
@@ -33,7 +33,7 @@ const categories: CategoryItem[] = [
   { 
     id: 'bar', 
     label: 'Bars', 
-    icon: <Glass size={22} />, 
+    icon: <Wine size={22} />, 
     color: 'bg-amber-100 text-amber-800'
   },
   { 
