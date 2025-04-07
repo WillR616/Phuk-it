@@ -235,3 +235,4 @@ export const getRecommendedActivities = (activities: Activity[], preferences: Us
     .sort((a, b) => (b as any).score - (a as any).score)
     .map(({ score, ...activity }) => activity);
 };
+
