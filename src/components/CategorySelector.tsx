@@ -1,6 +1,6 @@
 
 import { useState } from 'react';
-import { UmbrellaBeach, Utensils, Music, GlassWater, Building, Spa, Landmark } from 'lucide-react';
+import { Umbrella, Utensils, Music, Glass, Building, Sparkles, Landmark } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { Category } from '@/data/activities';
 
@@ -15,7 +15,7 @@ const categories: CategoryItem[] = [
   { 
     id: 'beach', 
     label: 'Beaches', 
-    icon: <UmbrellaBeach size={22} />, 
+    icon: <Umbrella size={22} />, 
     color: 'bg-teal-light text-teal-dark'
   },
   { 
@@ -33,7 +33,7 @@ const categories: CategoryItem[] = [
   { 
     id: 'bar', 
     label: 'Bars', 
-    icon: <GlassWater size={22} />, 
+    icon: <Glass size={22} />, 
     color: 'bg-amber-100 text-amber-800'
   },
   { 
@@ -45,7 +45,7 @@ const categories: CategoryItem[] = [
   { 
     id: 'massage', 
     label: 'Spa', 
-    icon: <Spa size={22} />, 
+    icon: <Sparkles size={22} />, 
     color: 'bg-green-100 text-green-800'
   },
   { 
