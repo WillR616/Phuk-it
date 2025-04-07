@@ -44,7 +44,7 @@ export const mockActivities: Activity[] = [
     category: 'beach',
     location: 'Bangtao Beach',
     priceRange: 2,
-    imageUrl: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
+    imageUrl: 'https://images.unsplash.com/photo-1520454974749-611b7248ffdb',
     tags: ['relaxing', 'drinks', 'water', 'luxury', 'romantic'],
     ratings: [
       { userId: 'user1', rating: 4.5, review: 'Great atmosphere and amazing sunset views!', date: new Date('2023-11-15') },
@@ -59,7 +59,7 @@ export const mockActivities: Activity[] = [
     category: 'restaurant',
     location: 'Phuket Town',
     priceRange: 3,
-    imageUrl: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
+    imageUrl: 'https://images.unsplash.com/photo-1504674900247-0877df9cc836',
     tags: ['food', 'cultural', 'luxury', 'romantic'],
     ratings: [
       { userId: 'user1', rating: 5, review: 'The best Thai food I\'ve ever had!', date: new Date('2023-10-28') },
@@ -74,7 +74,7 @@ export const mockActivities: Activity[] = [
     category: 'club',
     location: 'Patong Beach',
     priceRange: 2,
-    imageUrl: 'https://images.unsplash.com/photo-1472396961693-142e6e269027',
+    imageUrl: 'https://images.unsplash.com/photo-1566737236500-c8ac43014a67',
     tags: ['nightlife', 'exciting', 'music', 'drinks'],
     ratings: [
       { userId: 'user2', rating: 4, review: 'Great DJs and energetic crowd!', date: new Date('2023-11-20') },
@@ -89,7 +89,7 @@ export const mockActivities: Activity[] = [
     category: 'massage',
     location: 'Kata Beach',
     priceRange: 2,
-    imageUrl: 'https://images.unsplash.com/photo-1721322800607-8c38375eef04',
+    imageUrl: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874',
     tags: ['wellness', 'relaxing', 'luxury'],
     ratings: [
       { userId: 'user1', rating: 5, review: 'Best massage of my life. Truly relaxing!', date: new Date('2023-11-02') },
@@ -104,7 +104,7 @@ export const mockActivities: Activity[] = [
     category: 'local',
     location: 'Phuket Town',
     priceRange: 2,
-    imageUrl: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
+    imageUrl: 'https://images.unsplash.com/photo-1617651523904-95730d8cdb5e',
     tags: ['food', 'cultural', 'local experience'],
     ratings: [
       { userId: 'user2', rating: 5, review: 'Such a fun experience! Now I can make pad thai at home.', date: new Date('2023-10-15') },
@@ -119,7 +119,7 @@ export const mockActivities: Activity[] = [
     category: 'museum',
     location: 'Phuket Town',
     priceRange: 1,
-    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
+    imageUrl: 'https://images.unsplash.com/photo-1553861826-9523f4124d27',
     tags: ['art', 'family-friendly', 'exciting'],
     ratings: [
       { userId: 'user3', rating: 4, review: 'Super fun place to take photos!', date: new Date('2023-11-10') },
@@ -134,7 +134,7 @@ export const mockActivities: Activity[] = [
     category: 'beach',
     location: 'Surin',
     priceRange: 1,
-    imageUrl: 'https://images.unsplash.com/photo-1500375592092-40eb2168fd21',
+    imageUrl: 'https://images.unsplash.com/photo-1468413253725-0d5181091126',
     tags: ['water', 'nature', 'relaxing'],
     ratings: [
       { userId: 'user4', rating: 5, review: 'The most beautiful beach in Phuket!', date: new Date('2023-11-05') },
@@ -149,7 +149,7 @@ export const mockActivities: Activity[] = [
     category: 'bar',
     location: 'Kamala Beach',
     priceRange: 3,
-    imageUrl: 'https://images.unsplash.com/photo-1472396961693-142e6e269027',
+    imageUrl: 'https://images.unsplash.com/photo-1507394293568-bf8ed416c6f0',
     tags: ['drinks', 'music', 'luxury', 'water'],
     ratings: [
       { userId: 'user1', rating: 4.5, review: 'Amazing sunset spot with great music!', date: new Date('2023-11-18') },
@@ -164,7 +164,7 @@ export const mockActivities: Activity[] = [
     category: 'bar',
     location: 'Patong Beach',
     priceRange: 2,
-    imageUrl: 'https://images.unsplash.com/photo-1472396961693-142e6e269027',
+    imageUrl: 'https://images.unsplash.com/photo-1585681614878-98227d50d255',
     tags: ['drinks', 'music', 'nightlife'],
     ratings: [
       { userId: 'user2', rating: 4, review: 'Great live music and rum cocktails!', date: new Date('2023-11-25') },
@@ -179,7 +179,7 @@ export const mockActivities: Activity[] = [
     category: 'restaurant',
     location: 'Patong Beach',
     priceRange: 3,
-    imageUrl: 'https://images.unsplash.com/photo-1582562124811-c09040d0a901',
+    imageUrl: 'https://images.unsplash.com/photo-1578474846511-04ba529f0b88',
     tags: ['food', 'luxury', 'romantic', 'cultural'],
     ratings: [
       { userId: 'user3', rating: 5, review: 'Incredible food and the view is breathtaking!', date: new Date('2023-11-12') },
